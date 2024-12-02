@@ -13,3 +13,27 @@ let isLoggedIn=false//bool
 
 //objects
 
+//there are two types of data types-primitive and non primitive
+//primitive-call by value-copies-changes will be in copies-
+//string,number boolean null undefine symbol big int 
+
+/*non primitive-call-call be reference
+array
+objects
+functions
+*/
+const score=100
+const scoreValue=100.3
+const isLoggedin=false
+const outsideTemp=null
+let userEmail;
+const id= Symbol('123');
+const anotherid= Symbol('123');// javascript is case sensetive so take care of this 
+
+//console.log(id===anotherid);
+
+//function as a datatypes
+const myFunction=function(){
+    console.log("hello wolrd");
+}
+console.log(typeof(myFunction))//function data types
