@@ -37,3 +37,20 @@ const myFunction=function(){
     console.log("hello wolrd");
 }
 console.log(typeof(myFunction))//function data types
+
+
+
+
+//**********   types of memory    ******* */
+//stack memory-primitive- copy
+//heap memory-non primitive-by reference
+
+//example of heap datatype
+const user1={
+    email:"rakesh765483",
+    upi:"user@paypal"
+}
+let user2=user1;
+user2.email="faltuemial";
+console.log(user1.email);
+console.log(user2.email);
